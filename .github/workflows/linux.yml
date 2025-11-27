@@ -1,11 +1,11 @@
 name: Build (Linux)
 
 on:
-  push:
-    paths:
-      - 'source/*'
-      - 'CMakeLists.txt'
-      - '.github/workflows/linux.yml'
+  # push:
+  #   paths:
+  #     - 'source/*'
+  #     - 'CMakeLists.txt'
+  #     - '.github/workflows/linux.yml'
   workflow_dispatch:
 
 jobs:
